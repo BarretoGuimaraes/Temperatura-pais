@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* esses tres itens centralizam perfeitament*/
+    height: 100vh; /* vh igual a altura*/
+    width: 100vw; /* vw igual a largura*/
+    background-image: url(https://images.unsplash.com/photo-1462400362591-9ca55235346a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY3NTYyMDA2Ng&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600) ;
+    background-size: 100%;
+}
+
+div{
+    background-color: black;
+    width: 95%;
+    max-width: 400px;
+    opacity: 0.8;
+    padding: 17px;
+    border-radius: 30px;
+}
+
+.cidade{
+    color: white;
+    margin-top: 30px;
+}
+.graus{
+    color: white;
+    margin-top: 30px;
+}
+.ceu{
+    color: white;
+    margin-top: 30px;
+}
+.clima{
+    color: white;
+    margin-top: 30px;
+}
+.caixamenor{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
